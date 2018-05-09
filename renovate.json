@@ -2,5 +2,8 @@
   "extends": [
     "config:base",
     ":preserveSemverRanges"
-  ]
+  ],
+  "prHourlyLimit": 0,
+  "recreateClosed": true,
+  "renovateFork": true
 }
